@@ -1,0 +1,39 @@
+/* Navbar.css */
+.navbar {
+  background-color: #000a14; /* Set your desired background color */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  border: 1px solid #020a12; /* Set border color for the toggler icon */
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-nav {
+  margin-left: auto; /* Move the nav items to the right */
+}
+
+.nav-item {
+  margin-right: 15px; /* Adjust the spacing between nav items */
+}
+
+.nav-link {
+  color: #030f1b; /* Set link color */
+  border: 1px solid #030d18; /* Set border for the links */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  padding: 8px 15px; /* Add padding for better appearance */
+}
+
+.nav-link:hover {
+  background-color: #3b3c3d; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+/* Adjust the styles based on your design preferences */
